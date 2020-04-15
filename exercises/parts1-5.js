@@ -52,6 +52,9 @@ var spaceShuttle = new Spacecraft('Determination', 17500);
 // Add the required import statement BEFORE the part 1 concent.
 //      import { SpaceLocation } from './SpaceLocation';
 // Add the printDaysToLocation function to the Spacecraft class.
+// printDaysToLocation(location: SpaceLocation) {
+//     console.log(`${this.name} would take ${this.getDaysToLocation(location.kilometersAway)} days to get to ${location.name}.`);
+//  }
+// Paste in the code from step 6 here:
 spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('Mars', kilometersToMars));
 spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('the Moon', kilometersToTheMoon));
-// Paste in the code from step 6 here:

@@ -62,7 +62,10 @@ let spaceShuttle = new Spacecraft('Determination', 17500);
 //      import { SpaceLocation } from './SpaceLocation';
 
 // Add the printDaysToLocation function to the Spacecraft class.
-spaceShuttle.printDaysToLocation(new SpaceLocation('Mars', kilometersToMars));
-spaceShuttle.printDaysToLocation(new SpaceLocation('the Moon', kilometersToTheMoon));
+// printDaysToLocation(location: SpaceLocation) {
+//     console.log(`${this.name} would take ${this.getDaysToLocation(location.kilometersAway)} days to get to ${location.name}.`);
+//  }
 
 // Paste in the code from step 6 here:
+spaceShuttle.printDaysToLocation(new SpaceLocation('Mars', kilometersToMars));
+spaceShuttle.printDaysToLocation(new SpaceLocation('the Moon', kilometersToTheMoon));
